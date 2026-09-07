@@ -1,0 +1,260 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "advance-directive-summarizer",
+      "api-ai-family-communication"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "advance-directive-summarizer",
+        "title": "Advance Directive Summarizer",
+        "originalPath": "/features/advance-directive-summarizer"
+      },
+      {
+        "id": "api-ai-family-communication",
+        "title": "Family Communication Draft",
+        "originalPath": "/features/api-ai-family-communication"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "care-plans",
+      "sleep",
+      "routine-learning",
+      "proactive-maintenance",
+      "guest-profiling",
+      "emergency-response-advisor",
+      "guest-profiling-ai",
+      "emergency-response-coordination-ai",
+      "family-meeting-agenda-generator",
+      "find-backup-resource"
+    ],
+    "ai": true,
+    "representativeId": "care-plans",
+    "description": "One assistant for 10 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "care-plans",
+        "title": "Care plans",
+        "originalPath": "/features/care-plans"
+      },
+      {
+        "id": "sleep",
+        "title": "Sleep",
+        "originalPath": "/features/sleep"
+      },
+      {
+        "id": "routine-learning",
+        "title": "Routine Learning",
+        "originalPath": "/features/routine-learning"
+      },
+      {
+        "id": "proactive-maintenance",
+        "title": "Proactive Maintenance",
+        "originalPath": "/features/proactive-maintenance"
+      },
+      {
+        "id": "guest-profiling",
+        "title": "Guest Profiling",
+        "originalPath": "/features/guest-profiling"
+      },
+      {
+        "id": "emergency-response-advisor",
+        "title": "Emergency Response Advisor",
+        "originalPath": "/features/emergency-response-advisor"
+      },
+      {
+        "id": "guest-profiling-ai",
+        "title": "guest profiling ai",
+        "originalPath": "/features/guest-profiling-ai"
+      },
+      {
+        "id": "emergency-response-coordination-ai",
+        "title": "emergency response coordination ai",
+        "originalPath": "/features/emergency-response-coordination-ai"
+      },
+      {
+        "id": "family-meeting-agenda-generator",
+        "title": "Family Meeting Agenda Generator",
+        "originalPath": "/features/family-meeting-agenda-generator"
+      },
+      {
+        "id": "find-backup-resource",
+        "title": "Find Backup Resource",
+        "originalPath": "/features/find-backup-resource"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "predictive",
+      "recommendations",
+      "expense-optimizer",
+      "occupancy-prediction",
+      "proactive-maintenance-prediction-from-ap",
+      "expense-optimizer-for-service-cancell",
+      "occupancy-prediction-model",
+      "api-ai-symptom-recommendations",
+      "api-ai-predictive-decline",
+      "predict-demand",
+      "skill-gap-analyzer"
+    ],
+    "ai": true,
+    "representativeId": "predictive",
+    "description": "One assistant for 11 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "predictive",
+        "title": "Predictive AI",
+        "originalPath": "/features/predictive"
+      },
+      {
+        "id": "recommendations",
+        "title": "Recommendations",
+        "originalPath": "/features/recommendations"
+      },
+      {
+        "id": "expense-optimizer",
+        "title": "Expense Optimizer",
+        "originalPath": "/features/expense-optimizer"
+      },
+      {
+        "id": "occupancy-prediction",
+        "title": "Occupancy Prediction",
+        "originalPath": "/features/occupancy-prediction"
+      },
+      {
+        "id": "proactive-maintenance-prediction-from-ap",
+        "title": "proactive maintenance prediction from ap",
+        "originalPath": "/features/proactive-maintenance-prediction-from-ap"
+      },
+      {
+        "id": "expense-optimizer-for-service-cancell",
+        "title": "expense optimizer for service cancell",
+        "originalPath": "/features/expense-optimizer-for-service-cancell"
+      },
+      {
+        "id": "occupancy-prediction-model",
+        "title": "occupancy prediction model",
+        "originalPath": "/features/occupancy-prediction-model"
+      },
+      {
+        "id": "api-ai-symptom-recommendations",
+        "title": "Symptom Recommendations",
+        "originalPath": "/features/api-ai-symptom-recommendations"
+      },
+      {
+        "id": "api-ai-predictive-decline",
+        "title": "Predictive Decline Assessment",
+        "originalPath": "/features/api-ai-predictive-decline"
+      },
+      {
+        "id": "predict-demand",
+        "title": "Predict Demand",
+        "originalPath": "/features/predict-demand"
+      },
+      {
+        "id": "skill-gap-analyzer",
+        "title": "Skill Gap Analyzer",
+        "originalPath": "/features/skill-gap-analyzer"
+      }
+    ]
+  },
+  {
+    "id": "ai-creative",
+    "title": "Creative & design",
+    "group": "AI assistants",
+    "path": "/assistants/ai-creative",
+    "featureIds": [
+      "voice-video-multimodal-ai-understanding"
+    ],
+    "ai": true,
+    "representativeId": "voice-video-multimodal-ai-understanding",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "voice-video-multimodal-ai-understanding",
+        "title": "voice video multimodal ai understanding",
+        "originalPath": "/features/voice-video-multimodal-ai-understanding"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "ihss-scheduling",
+      "optimize-schedule"
+    ],
+    "ai": true,
+    "representativeId": "ihss-scheduling",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "ihss-scheduling",
+        "title": "Ihss scheduling work",
+        "originalPath": "/features/ihss-scheduling"
+      },
+      {
+        "id": "optimize-schedule",
+        "title": "Optimize Schedule",
+        "originalPath": "/features/optimize-schedule"
+      }
+    ]
+  },
+  {
+    "id": "ai-finance",
+    "title": "Finance & reconciliation",
+    "group": "AI assistants",
+    "path": "/assistants/ai-finance",
+    "featureIds": [
+      "rate-advisor"
+    ],
+    "ai": true,
+    "representativeId": "rate-advisor",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "rate-advisor",
+        "title": "Labor Cost Advisor",
+        "originalPath": "/features/rate-advisor"
+      }
+    ]
+  }
+]

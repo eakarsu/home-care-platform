@@ -1,0 +1,27 @@
+{
+  "id": "home-care-platform",
+  "title": "Home care, hospice & elder care",
+  "buyer": "Home-care agencies and elder-care teams",
+  "sourceCount": 6,
+  "sources": [
+    "AIAgingInPlaceHomeModificationAssessor",
+    "AIElderCareCompanion",
+    "AIhomecompanion",
+    "AIHospiceCareManager",
+    "ihss_scheduling",
+    "salesforce_ihss_scheduling"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46008,
+  "productName": "Home care, hospice Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+    "/Volumes/external/projects/AIElderCareCompanion",
+    "/Volumes/external/projects/AIhomecompanion",
+    "/Volumes/external/projects/AIHospiceCareManager",
+    "/Volumes/external/projects/ihss_scheduling",
+    "/Volumes/external/projects/salesforce_ihss_scheduling"
+  ]
+}

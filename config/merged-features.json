@@ -1,0 +1,4866 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/calendar",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Calendar"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "calendar",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Family Calendar"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/billing",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Billing"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/notifications",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Notifications"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "notifications",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Notifications"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/analytics",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Analytics"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "analytics",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Analytics"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contractors",
+    "title": "Contractors",
+    "group": "Aging in place home modification assessor",
+    "description": "Organize contractors and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAgingInPlaceHomeModificationAssessor",
+        "path": "contractors",
+        "source": "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+        "kind": "route",
+        "label": "Contractors"
+      }
+    ],
+    "owner": "AIAgingInPlaceHomeModificationAssessor",
+    "alternatives": [],
+    "path": "/features/contractors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evacuation-readiness",
+    "title": "Evacuation readiness",
+    "group": "Aging in place home modification assessor",
+    "description": "Organize evacuation readiness and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIAgingInPlaceHomeModificationAssessor",
+        "path": "evacuation-readiness",
+        "source": "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+        "kind": "route",
+        "label": "Evacuation readiness"
+      }
+    ],
+    "owner": "AIAgingInPlaceHomeModificationAssessor",
+    "alternatives": [],
+    "path": "/features/evacuation-readiness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "care-enrollments",
+    "title": "Care enrollments",
+    "group": "Elder care companion",
+    "description": "Record care enrollments evidence and prepare human review.",
+    "fields": [
+      {
+        "name": "client_reference",
+        "label": "Client reference",
+        "type": "text"
+      },
+      {
+        "name": "guardian_reference",
+        "label": "Guardian reference",
+        "type": "text"
+      },
+      {
+        "name": "consent",
+        "label": "Consent",
+        "type": "text"
+      },
+      {
+        "name": "emergency_contact_reference",
+        "label": "Emergency contact reference",
+        "type": "text"
+      },
+      {
+        "name": "approved_summary",
+        "label": "Approved summary",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIElderCareCompanion",
+        "path": "care-enrollments",
+        "source": "/Volumes/external/projects/AIElderCareCompanion/backend/migrations/001_governed_care.sql",
+        "kind": "definition",
+        "label": "Care enrollments"
+      }
+    ],
+    "owner": "AIElderCareCompanion",
+    "alternatives": [],
+    "path": "/features/care-enrollments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "care-plans",
+    "title": "Care plans",
+    "group": "Elder care companion",
+    "description": "Record care plans evidence and prepare human review.",
+    "fields": [
+      {
+        "name": "assessment",
+        "label": "Assessment",
+        "type": "text"
+      },
+      {
+        "name": "interventions",
+        "label": "Interventions",
+        "type": "text"
+      },
+      {
+        "name": "prepared_by",
+        "label": "Prepared by",
+        "type": "text"
+      },
+      {
+        "name": "approved_by",
+        "label": "Approved by",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIElderCareCompanion",
+        "path": "care-plans",
+        "source": "/Volumes/external/projects/AIElderCareCompanion/backend/migrations/001_governed_care.sql",
+        "kind": "definition",
+        "label": "Care plans"
+      },
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/care-plans",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Care Plans"
+      }
+    ],
+    "owner": "AIElderCareCompanion",
+    "alternatives": [],
+    "path": "/features/care-plans",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "care-incidents",
+    "title": "Care incidents",
+    "group": "Elder care companion",
+    "description": "Record care incidents evidence and prepare human review.",
+    "fields": [
+      {
+        "name": "severity",
+        "label": "Severity",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "observed_facts",
+        "label": "Observed facts",
+        "type": "textarea"
+      },
+      {
+        "name": "immediate_actions",
+        "label": "Immediate actions",
+        "type": "text"
+      },
+      {
+        "name": "occurred_date",
+        "label": "Occurred date",
+        "type": "date"
+      },
+      {
+        "name": "reported_by",
+        "label": "Reported by",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIElderCareCompanion",
+        "path": "care-incidents",
+        "source": "/Volumes/external/projects/AIElderCareCompanion/backend/migrations/001_governed_care.sql",
+        "kind": "definition",
+        "label": "Care incidents"
+      }
+    ],
+    "owner": "AIElderCareCompanion",
+    "alternatives": [],
+    "path": "/features/care-incidents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "care-dispatch-requests",
+    "title": "Care dispatch requests",
+    "group": "Elder care companion",
+    "description": "Prepare care dispatch requests requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "incident_reference",
+        "label": "Incident reference",
+        "type": "text"
+      },
+      {
+        "name": "immediate_actions",
+        "label": "Immediate actions",
+        "type": "text"
+      },
+      {
+        "name": "dispatch_notes",
+        "label": "Dispatch notes",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIElderCareCompanion",
+        "path": "care-dispatch-requests",
+        "source": "/Volumes/external/projects/AIElderCareCompanion/backend/migrations/001_governed_care.sql",
+        "kind": "definition",
+        "label": "Care dispatch requests"
+      }
+    ],
+    "owner": "AIElderCareCompanion",
+    "alternatives": [],
+    "path": "/features/care-dispatch-requests",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "devices",
+    "title": "Devices",
+    "group": "Homecompanion",
+    "description": "Organize devices and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/devices",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Devices"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "devices",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Smart Devices"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/devices",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rooms",
+    "title": "Rooms",
+    "group": "Homecompanion",
+    "description": "Organize rooms and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/rooms",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Rooms"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "rooms",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Rooms"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/rooms",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "automations",
+    "title": "Automations",
+    "group": "Homecompanion",
+    "description": "Organize automations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/automations",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Automations"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "automations",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Automations"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/automations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scenes",
+    "title": "Scenes",
+    "group": "Homecompanion",
+    "description": "Organize scenes and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/scenes",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Scenes"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "scenes",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Scenes"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/scenes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "energy",
+    "title": "Energy",
+    "group": "Homecompanion",
+    "description": "Organize energy and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/energy",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Energy"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "energy",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Energy Monitor"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/energy",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "security",
+    "title": "Security",
+    "group": "Homecompanion",
+    "description": "Organize security and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/security",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Security"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "security",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Security"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/security",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sensors",
+    "title": "Sensors",
+    "group": "Homecompanion",
+    "description": "Organize sensors and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/sensors",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Sensors"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "sensors",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Sensors"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/sensors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "schedules",
+    "title": "Schedules",
+    "group": "Homecompanion",
+    "description": "Organize schedules and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/schedules",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Schedules"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "schedules",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Schedules"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/schedules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "maintenance",
+    "title": "Maintenance",
+    "group": "Homecompanion",
+    "description": "Organize maintenance and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/maintenance",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Maintenance"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "maintenance",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Maintenance"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/maintenance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "profiles",
+    "title": "Profiles",
+    "group": "Homecompanion",
+    "description": "Organize profiles and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/profiles",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Profiles"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "profiles",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Family Profiles"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/profiles",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shopping",
+    "title": "Shopping",
+    "group": "Homecompanion",
+    "description": "Organize shopping and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/shopping",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Shopping"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "shopping",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Shopping List"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/shopping",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recipes",
+    "title": "Recipes",
+    "group": "Homecompanion",
+    "description": "Organize recipes and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/recipes",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Recipes"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "recipes",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Recipes"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/recipes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mealplan",
+    "title": "Meal Plans",
+    "group": "Homecompanion",
+    "description": "Organize meal plans and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/mealplan",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Meal Plans"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "mealplan",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Meal Planning"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/mealplan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chores",
+    "title": "Chores",
+    "group": "Homecompanion",
+    "description": "Organize chores and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/chores",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Chores"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "chores",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Chores"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/chores",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "budget",
+    "title": "Budget",
+    "group": "Homecompanion",
+    "description": "Organize budget and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/budget",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Budget"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "budget",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Budget"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/budget",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inventory",
+    "title": "Pantry",
+    "group": "Homecompanion",
+    "description": "Organize pantry and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/inventory",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Pantry"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "inventory",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Pantry"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/inventory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "weather",
+    "title": "Weather",
+    "group": "Homecompanion",
+    "description": "Organize weather and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/weather",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Weather"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "weather",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Weather"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/weather",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pets",
+    "title": "Pets",
+    "group": "Homecompanion",
+    "description": "Organize pets and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/pets",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Pets"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "pets",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Pet Care"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/pets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "plants",
+    "title": "Plants",
+    "group": "Homecompanion",
+    "description": "Organize plants and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/plants",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Plants"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "plants",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Plants"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/plants",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "guests",
+    "title": "Guests",
+    "group": "Homecompanion",
+    "description": "Organize guests and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/guests",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Guests"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "guests",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Guests"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/guests",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "media",
+    "title": "Media",
+    "group": "Homecompanion",
+    "description": "Organize media and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/media",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Media"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "media",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Media"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/media",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "laundry",
+    "title": "Laundry",
+    "group": "Homecompanion",
+    "description": "Organize laundry and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/laundry",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Laundry"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "laundry",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Laundry"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/laundry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "packages",
+    "title": "Packages",
+    "group": "Homecompanion",
+    "description": "Organize packages and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/packages",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Packages"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "packages",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Packages"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/packages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "warranty",
+    "title": "Warranty",
+    "group": "Homecompanion",
+    "description": "Organize warranty and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/warranty",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Warranty"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "warranty",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Warranty"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/warranty",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emergency",
+    "title": "Emergency",
+    "group": "Homecompanion",
+    "description": "Organize emergency and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/emergency",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Emergency"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "emergency",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Emergency"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/emergency",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "intercom",
+    "title": "Intercom",
+    "group": "Homecompanion",
+    "description": "Organize intercom and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/intercom",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Intercom"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "intercom",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Intercom"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/intercom",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "robotstatus",
+    "title": "Robot Status",
+    "group": "Homecompanion",
+    "description": "Organize robot status and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/robotstatus",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Robot Status"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "robotstatus",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Robot Status"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/robotstatus",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "robottasks",
+    "title": "Robot Tasks",
+    "group": "Homecompanion",
+    "description": "Organize robot tasks and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/robottasks",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Robot Tasks"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "robottasks",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Robot Tasks"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/robottasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "voice",
+    "title": "Voice",
+    "group": "Homecompanion",
+    "description": "Organize voice and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/voice",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Voice"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "voice",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Voice Commands"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/voice",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "faces",
+    "title": "Faces",
+    "group": "Homecompanion",
+    "description": "Organize faces and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/faces",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Faces"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "faces",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Face Recognition"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/faces",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emotions",
+    "title": "Emotions",
+    "group": "Homecompanion",
+    "description": "Organize emotions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/emotions",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Emotions"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "emotions",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Emotions"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/emotions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gestures",
+    "title": "Gestures",
+    "group": "Homecompanion",
+    "description": "Organize gestures and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/gestures",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Gestures"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "gestures",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Gestures"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/gestures",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "objects",
+    "title": "Objects",
+    "group": "Homecompanion",
+    "description": "Organize objects and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/objects",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Objects"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "objects",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Object Detection"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/objects",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "patrol",
+    "title": "Patrol",
+    "group": "Homecompanion",
+    "description": "Organize patrol and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/patrol",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Patrol"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "patrol",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Robot Patrol"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/patrol",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "navigation",
+    "title": "Navigation",
+    "group": "Homecompanion",
+    "description": "Organize navigation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/navigation",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Navigation"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "navigation",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Navigation"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/navigation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "companion",
+    "title": "Companion",
+    "group": "Homecompanion",
+    "description": "Organize companion and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/companion",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Companion"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "companion",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Companion"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/companion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sleep",
+    "title": "Sleep",
+    "group": "Homecompanion",
+    "description": "Organize sleep and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/sleep",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Sleep"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "sleep",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Sleep Analysis"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/sleep",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "anomalies",
+    "title": "Anomalies",
+    "group": "Homecompanion",
+    "description": "Organize anomalies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/anomalies",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Anomalies"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "anomalies",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Anomalies"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/anomalies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive",
+    "title": "Predictive AI",
+    "group": "Homecompanion",
+    "description": "Organize predictive ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/predictive",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Predictive AI"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "predictive",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Predictive AI"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/predictive",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recommendations",
+    "title": "Recommendations",
+    "group": "Homecompanion",
+    "description": "Organize recommendations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "/recommendations",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+        "kind": "definition",
+        "label": "Recommendations"
+      },
+      {
+        "module": "AIhomecompanion",
+        "path": "recommendations",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "AI Recommendations"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/recommendations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expense-optimizer",
+    "title": "Expense Optimizer",
+    "group": "Homecompanion",
+    "description": "Recommends cost-saving automations and unused-service cancellations using your budget, energy logs, and devices.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "Expense Optimizer",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+        "kind": "definition",
+        "label": "Expense Optimizer"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/expense-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "occupancy-prediction",
+    "title": "Occupancy Prediction",
+    "group": "Homecompanion",
+    "description": "Predicts per-room occupancy probability and recommends HVAC/lighting/standby actions.",
+    "fields": [
+      {
+        "name": "lookahead_hours",
+        "label": "Lookahead (hours)",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "Occupancy Prediction",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+        "kind": "definition",
+        "label": "Occupancy Prediction"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/occupancy-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "routine-learning",
+    "title": "Routine Learning",
+    "group": "Homecompanion",
+    "description": "Detects recurring family patterns and proposes new automations with confidence scores.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "Routine Learning",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+        "kind": "definition",
+        "label": "Routine Learning"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/routine-learning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "proactive-maintenance",
+    "title": "Proactive Maintenance",
+    "group": "Homecompanion",
+    "description": "Builds a prioritized maintenance plan from predictive failures, past logs, devices, and warranties.",
+    "fields": [
+      {
+        "name": "lookahead_days",
+        "label": "Lookahead (days)",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "Proactive Maintenance",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+        "kind": "definition",
+        "label": "Proactive Maintenance"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/proactive-maintenance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "guest-profiling",
+    "title": "Guest Profiling",
+    "group": "Homecompanion",
+    "description": "Advisory profile of guest preferences from visit history. Privacy-respecting; you decide what to apply.",
+    "fields": [
+      {
+        "name": "guest_id",
+        "label": "Guest ID (optional)",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "Guest Profiling",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+        "kind": "definition",
+        "label": "Guest Profiling"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/guest-profiling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emergency-response-advisor",
+    "title": "Emergency Response Advisor",
+    "group": "Homecompanion",
+    "description": "ADVISORY playbook only. Always call emergency services first. Does NOT execute device controls.",
+    "fields": [
+      {
+        "name": "emergency_type",
+        "label": "Emergency Type *",
+        "type": "text"
+      },
+      {
+        "name": "severity",
+        "label": "Severity",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "Emergency Response Advisor",
+        "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+        "kind": "definition",
+        "label": "Emergency Response Advisor"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/emergency-response-advisor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "family-permissions",
+    "title": "Family permissions",
+    "group": "Homecompanion",
+    "description": "Organize family permissions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "family-permissions",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "Family permissions"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/family-permissions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-household-orchestrator-autonomou",
+    "title": "agentic household orchestrator autonomou",
+    "group": "Homecompanion",
+    "description": "Organize agentic household orchestrator autonomou and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "cf-agentic-household-orchestrator-autonomou",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "agentic household orchestrator autonomou"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/agentic-household-orchestrator-autonomou",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-energy-demand-shifting-auto",
+    "title": "real time energy demand shifting auto",
+    "group": "Homecompanion",
+    "description": "Organize real time energy demand shifting auto and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "cf-real-time-energy-demand-shifting-auto",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "real time energy demand shifting auto"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/real-time-energy-demand-shifting-auto",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "proactive-maintenance-prediction-from-ap",
+    "title": "proactive maintenance prediction from ap",
+    "group": "Homecompanion",
+    "description": "Organize proactive maintenance prediction from ap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "cf-proactive-maintenance-prediction-from-ap",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "proactive maintenance prediction from ap"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/proactive-maintenance-prediction-from-ap",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "voice-video-multimodal-ai-understanding",
+    "title": "voice video multimodal ai understanding",
+    "group": "Homecompanion",
+    "description": "Organize voice video multimodal ai understanding and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "cf-voice-video-multimodal-ai-understanding-",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "voice video multimodal ai understanding"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/voice-video-multimodal-ai-understanding",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-home-energy-arbitrage-with-demand",
+    "title": "multi home energy arbitrage with demand",
+    "group": "Homecompanion",
+    "description": "Organize multi home energy arbitrage with demand and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "cf-multi-home-energy-arbitrage-with-demand",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "multi home energy arbitrage with demand"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/multi-home-energy-arbitrage-with-demand",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "family-activity-clustering-auto-creating",
+    "title": "family activity clustering auto creating",
+    "group": "Homecompanion",
+    "description": "Organize family activity clustering auto creating and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "cf-family-activity-clustering-auto-creating",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "family activity clustering auto creating"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/family-activity-clustering-auto-creating",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expense-optimizer-for-service-cancell",
+    "title": "expense optimizer for service cancell",
+    "group": "Homecompanion",
+    "description": "Organize expense optimizer for service cancell and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-expense-optimizer-for-service-cancell",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "expense optimizer for service cancell"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/expense-optimizer-for-service-cancell",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "occupancy-prediction-model",
+    "title": "occupancy prediction model",
+    "group": "Homecompanion",
+    "description": "Organize occupancy prediction model and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-occupancy-prediction-model",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "occupancy prediction model"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/occupancy-prediction-model",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "guest-profiling-ai",
+    "title": "guest profiling ai",
+    "group": "Homecompanion",
+    "description": "Organize guest profiling ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-guest-profiling-ai",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "guest profiling ai"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/guest-profiling-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emergency-response-coordination-ai",
+    "title": "emergency response coordination ai",
+    "group": "Homecompanion",
+    "description": "Organize emergency response coordination ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-emergency-response-coordination-ai",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "emergency response coordination ai"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/emergency-response-coordination-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "routine-learning-new-automation-sugge",
+    "title": "routine learning new automation sugge",
+    "group": "Homecompanion",
+    "description": "Organize routine learning new automation sugge and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-routine-learning-new-automation-sugge",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "routine learning new automation sugge"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/routine-learning-new-automation-sugge",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "device-marketplace-integration",
+    "title": "device marketplace integration",
+    "group": "Homecompanion",
+    "description": "Prepare device marketplace integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-device-marketplace-integration",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "device marketplace integration"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/device-marketplace-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vendor-service-booking",
+    "title": "vendor service booking",
+    "group": "Homecompanion",
+    "description": "Organize vendor service booking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-vendor-service-booking",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "vendor service booking"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/vendor-service-booking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-home-management",
+    "title": "multi home management",
+    "group": "Homecompanion",
+    "description": "Organize multi home management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-multi-home-management",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "multi home management"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/multi-home-management",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit-log-0-references",
+    "title": "audit log 0 references",
+    "group": "Homecompanion",
+    "description": "Organize audit log 0 references and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-audit-log-0-references",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "audit log 0 references"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/audit-log-0-references",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhook-surface",
+    "title": "webhook surface",
+    "group": "Homecompanion",
+    "description": "Prepare webhook surface requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-webhook-surface",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "webhook surface"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/webhook-surface",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "websocket-real-time-device-updates",
+    "title": "websocket real time device updates",
+    "group": "Homecompanion",
+    "description": "Organize websocket real time device updates and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "gap-no-websocket-real-time-device-updates",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "websocket real time device updates"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/websocket-real-time-device-updates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medication-reminder-escalation",
+    "title": "Medication reminder escalation",
+    "group": "Homecompanion",
+    "description": "Organize medication reminder escalation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIhomecompanion",
+        "path": "medication-reminder-escalation",
+        "source": "/Volumes/external/projects/AIhomecompanion",
+        "kind": "route",
+        "label": "Medication reminder escalation"
+      }
+    ],
+    "owner": "AIhomecompanion",
+    "alternatives": [],
+    "path": "/features/medication-reminder-escalation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-patients",
+    "title": "Patient Management",
+    "group": "Hospice care manager",
+    "description": "Organize patient management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/patients",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Patient Management"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-patients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-visits",
+    "title": "Visit Scheduling",
+    "group": "Hospice care manager",
+    "description": "Organize visit scheduling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/visits",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Visit Scheduling"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-visits",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-medications",
+    "title": "Medications",
+    "group": "Hospice care manager",
+    "description": "Organize medications and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/medications",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Medications"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-medications",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-symptoms",
+    "title": "Symptom Tracking",
+    "group": "Hospice care manager",
+    "description": "Organize symptom tracking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/symptoms",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Symptom Tracking"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-symptoms",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-family-members",
+    "title": "Family & Caregivers",
+    "group": "Hospice care manager",
+    "description": "Organize family & caregivers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/family-members",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Family & Caregivers"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-family-members",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-bereavement",
+    "title": "Bereavement Program",
+    "group": "Hospice care manager",
+    "description": "Organize bereavement program and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/bereavement",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Bereavement Program"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-bereavement",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-spiritual-care",
+    "title": "Spiritual Care",
+    "group": "Hospice care manager",
+    "description": "Organize spiritual care and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/spiritual-care",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Spiritual Care"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-spiritual-care",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-social-work",
+    "title": "Social Work",
+    "group": "Hospice care manager",
+    "description": "Organize social work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/social-work",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Social Work"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-social-work",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-volunteers",
+    "title": "Volunteer Coordination",
+    "group": "Hospice care manager",
+    "description": "Organize volunteer coordination and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/volunteers",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Volunteer Coordination"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-volunteers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-schedules",
+    "title": "Staff Scheduling",
+    "group": "Hospice care manager",
+    "description": "Organize staff scheduling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/schedules",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Staff Scheduling"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-schedules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-equipment",
+    "title": "DME Orders",
+    "group": "Hospice care manager",
+    "description": "Organize dme orders and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/equipment",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "DME Orders"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-equipment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-supplies",
+    "title": "Supply Management",
+    "group": "Hospice care manager",
+    "description": "Organize supply management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/supplies",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Supply Management"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-supplies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-gip-beds",
+    "title": "GIP Bed Management",
+    "group": "Hospice care manager",
+    "description": "Organize gip bed management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/gip-beds",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "GIP Bed Management"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-gip-beds",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-certifications",
+    "title": "Certifications",
+    "group": "Hospice care manager",
+    "description": "Organize certifications and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/certifications",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Certifications"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-certifications",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-quality-measures",
+    "title": "Quality Measures",
+    "group": "Hospice care manager",
+    "description": "Organize quality measures and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/quality-measures",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Quality Measures"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-quality-measures",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-compliance",
+    "title": "Compliance Docs",
+    "group": "Hospice care manager",
+    "description": "Organize compliance docs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/compliance",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Compliance Docs"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-compliance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-team-meetings",
+    "title": "IDT Meetings",
+    "group": "Hospice care manager",
+    "description": "Organize idt meetings and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/team-meetings",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "IDT Meetings"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-team-meetings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-surveys",
+    "title": "Family Surveys",
+    "group": "Hospice care manager",
+    "description": "Organize family surveys and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/surveys",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Family Surveys"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-surveys",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-comfort-kit-refill-predictor",
+    "title": "Comfort Kit Refill",
+    "group": "Hospice care manager",
+    "description": "Organize comfort kit refill and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/comfort-kit-refill-predictor",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+        "kind": "definition",
+        "label": "Comfort Kit Refill"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-comfort-kit-refill-predictor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "advance-directive-summarizer",
+    "title": "Advance Directive Summarizer",
+    "group": "Hospice care manager",
+    "description": "Organize advance directive summarizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "patientId",
+        "label": "Patient",
+        "type": "text"
+      },
+      {
+        "name": "directive_text",
+        "label": "Advance Directive Text (optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "advance-directive-summarizer",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/AdvancedAITools.js",
+        "kind": "definition",
+        "label": "Advance Directive Summarizer"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/advance-directive-summarizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "family-meeting-agenda-generator",
+    "title": "Family Meeting Agenda Generator",
+    "group": "Hospice care manager",
+    "description": "Organize family meeting agenda generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "patientId",
+        "label": "Patient",
+        "type": "text"
+      },
+      {
+        "name": "meeting_purpose",
+        "label": "Meeting Purpose",
+        "type": "select",
+        "options": [
+          "Goals of care",
+          "Symptom escalation",
+          "Transition of care",
+          "Bereavement preparation",
+          "IDT review",
+          "Other"
+        ]
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees (comma-separated)",
+        "type": "text"
+      },
+      {
+        "name": "duration_minutes",
+        "label": "Duration (minutes)",
+        "type": "number"
+      },
+      {
+        "name": "concerns",
+        "label": "Family Concerns / Sensitive Topics",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "family-meeting-agenda-generator",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/AdvancedAITools.js",
+        "kind": "definition",
+        "label": "Family Meeting Agenda Generator"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/family-meeting-agenda-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-care-plan-narrative",
+    "title": "Generate Care Plan Narrative",
+    "group": "Hospice care manager",
+    "description": "Organize generate care plan narrative and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/care-plan-narrative",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Generate Care Plan Narrative"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-care-plan-narrative",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-symptom-recommendations",
+    "title": "Symptom Recommendations",
+    "group": "Hospice care manager",
+    "description": "Organize symptom recommendations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/symptom-recommendations",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Symptom Recommendations"
+      },
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/symptom-recommendations",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Symptom Management Recommendations"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-symptom-recommendations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-comfort-measures",
+    "title": "Comfort Measure Suggestions",
+    "group": "Hospice care manager",
+    "description": "Organize comfort measure suggestions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/comfort-measures",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Comfort Measure Suggestions"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-comfort-measures",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-family-communication",
+    "title": "Family Communication Draft",
+    "group": "Hospice care manager",
+    "description": "Organize family communication draft and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/family-communication",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Family Communication Draft"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-family-communication",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-compliance-documentation",
+    "title": "Compliance Documentation",
+    "group": "Hospice care manager",
+    "description": "Organize compliance documentation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/compliance-documentation",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Compliance Documentation"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-compliance-documentation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-bereavement-resources",
+    "title": "Bereavement Resources",
+    "group": "Hospice care manager",
+    "description": "Organize bereavement resources and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/bereavement-resources",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Bereavement Resources"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-bereavement-resources",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-predictive-decline",
+    "title": "Predictive Decline Assessment",
+    "group": "Hospice care manager",
+    "description": "Organize predictive decline assessment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/predictive-decline",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Predictive Decline Assessment"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-predictive-decline",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-bereavement-contact",
+    "title": "Generate Contact Script (Next Milestone)",
+    "group": "Hospice care manager",
+    "description": "Organize generate contact script (next milestone) and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/bereavement-contact",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Generate Contact Script (Next Milestone)"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-bereavement-contact",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "api-ai-meeting-summary",
+    "title": "Generate Meeting Summary",
+    "group": "Hospice care manager",
+    "description": "Organize generate meeting summary and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIHospiceCareManager",
+        "path": "/api/ai/meeting-summary",
+        "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+        "kind": "definition",
+        "label": "Generate Meeting Summary"
+      }
+    ],
+    "owner": "AIHospiceCareManager",
+    "alternatives": [],
+    "path": "/features/api-ai-meeting-summary",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ihss-scheduling",
+    "title": "Ihss scheduling work",
+    "group": "Ihss scheduling",
+    "description": "Organize ihss scheduling work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ihss_scheduling",
+        "path": "ihss_scheduling",
+        "source": "/Volumes/external/projects/ihss_scheduling",
+        "kind": "source-workflow",
+        "label": "Ihss scheduling work"
+      }
+    ],
+    "owner": "ihss_scheduling",
+    "alternatives": [],
+    "path": "/features/ihss-scheduling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "optimize-schedule",
+    "title": "Optimize Schedule",
+    "group": "Salesforce ihss scheduling",
+    "description": "AI-driven shift assignment optimizer",
+    "fields": [
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "text"
+      },
+      {
+        "name": "territory",
+        "label": "Territory",
+        "type": "text"
+      },
+      {
+        "name": "objectives",
+        "label": "Objectives",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "salesforce_ihss_scheduling",
+        "path": "optimize-schedule",
+        "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+        "kind": "definition",
+        "label": "Optimize Schedule"
+      }
+    ],
+    "owner": "salesforce_ihss_scheduling",
+    "alternatives": [],
+    "path": "/features/optimize-schedule",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predict-demand",
+    "title": "Predict Demand",
+    "group": "Salesforce ihss scheduling",
+    "description": "Forecast service demand for upcoming periods",
+    "fields": [
+      {
+        "name": "territory",
+        "label": "Territory",
+        "type": "text"
+      },
+      {
+        "name": "horizonDays",
+        "label": "Horizon Days",
+        "type": "number"
+      },
+      {
+        "name": "context",
+        "label": "Context (optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "salesforce_ihss_scheduling",
+        "path": "predict-demand",
+        "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+        "kind": "definition",
+        "label": "Predict Demand"
+      }
+    ],
+    "owner": "salesforce_ihss_scheduling",
+    "alternatives": [],
+    "path": "/features/predict-demand",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "find-backup-resource",
+    "title": "Find Backup Resource",
+    "group": "Salesforce ihss scheduling",
+    "description": "Recommend a backup resource for a last-minute absence",
+    "fields": [
+      {
+        "name": "absentResource",
+        "label": "Absent Resource",
+        "type": "text"
+      },
+      {
+        "name": "shiftStart",
+        "label": "Shift Start (ISO)",
+        "type": "text"
+      },
+      {
+        "name": "shiftEnd",
+        "label": "Shift End (ISO)",
+        "type": "text"
+      },
+      {
+        "name": "requiredSkills",
+        "label": "Required Skills (comma separated)",
+        "type": "text"
+      },
+      {
+        "name": "territory",
+        "label": "Territory",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "salesforce_ihss_scheduling",
+        "path": "find-backup-resource",
+        "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+        "kind": "definition",
+        "label": "Find Backup Resource"
+      }
+    ],
+    "owner": "salesforce_ihss_scheduling",
+    "alternatives": [],
+    "path": "/features/find-backup-resource",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "skill-gap-analyzer",
+    "title": "Skill Gap Analyzer",
+    "group": "Salesforce ihss scheduling",
+    "description": "Identify training gaps for your roster vs required skills",
+    "fields": [
+      {
+        "name": "roster",
+        "label": "Roster (JSON array) *",
+        "type": "textarea"
+      },
+      {
+        "name": "required_skills",
+        "label": "Required Skills (JSON array)",
+        "type": "textarea"
+      },
+      {
+        "name": "target_certifications",
+        "label": "Target Certifications (JSON array)",
+        "type": "textarea"
+      },
+      {
+        "name": "work_mix",
+        "label": "Work Mix (JSON object, optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "salesforce_ihss_scheduling",
+        "path": "skill-gap-analyzer",
+        "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+        "kind": "definition",
+        "label": "Skill Gap Analyzer"
+      }
+    ],
+    "owner": "salesforce_ihss_scheduling",
+    "alternatives": [],
+    "path": "/features/skill-gap-analyzer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rate-advisor",
+    "title": "Labor Cost Advisor",
+    "group": "Salesforce ihss scheduling",
+    "description": "AI labor-cost analysis from rate cards and worked hours",
+    "fields": [
+      {
+        "name": "rates",
+        "label": "Rates (JSON array)",
+        "type": "textarea"
+      },
+      {
+        "name": "hours",
+        "label": "Hours (JSON array)",
+        "type": "textarea"
+      },
+      {
+        "name": "territory",
+        "label": "Territory",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "salesforce_ihss_scheduling",
+        "path": "rate-advisor",
+        "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+        "kind": "definition",
+        "label": "Labor Cost Advisor"
+      }
+    ],
+    "owner": "salesforce_ihss_scheduling",
+    "alternatives": [],
+    "path": "/features/rate-advisor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

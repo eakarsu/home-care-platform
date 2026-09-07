@@ -1,0 +1,38 @@
+[
+  {
+    "id": "AIAgingInPlaceHomeModificationAssessor",
+    "name": "Aging in place home modification assessor",
+    "sourceProject": "AIAgingInPlaceHomeModificationAssessor",
+    "services": []
+  },
+  {
+    "id": "AIElderCareCompanion",
+    "name": "Elder care companion",
+    "sourceProject": "AIElderCareCompanion",
+    "services": []
+  },
+  {
+    "id": "AIhomecompanion",
+    "name": "Homecompanion",
+    "sourceProject": "AIhomecompanion",
+    "services": []
+  },
+  {
+    "id": "AIHospiceCareManager",
+    "name": "Hospice care manager",
+    "sourceProject": "AIHospiceCareManager",
+    "services": []
+  },
+  {
+    "id": "ihss_scheduling",
+    "name": "Ihss scheduling",
+    "sourceProject": "ihss_scheduling",
+    "services": []
+  },
+  {
+    "id": "salesforce_ihss_scheduling",
+    "name": "Salesforce ihss scheduling",
+    "sourceProject": "salesforce_ihss_scheduling",
+    "services": []
+  }
+]

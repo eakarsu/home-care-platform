@@ -1,0 +1,8 @@
+{
+  "id": "home-care-platform",
+  "port": 46008,
+  "status": "passed",
+  "startScript": true,
+  "health": true,
+  "verifiedAt": "2026-09-07T14:38:27.978Z"
+}

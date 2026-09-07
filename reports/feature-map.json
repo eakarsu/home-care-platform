@@ -1,0 +1,1269 @@
+{
+  "mapped": [
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "sourceKey": "contractors",
+      "source": "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+      "canonical": "contractors",
+      "kind": "route"
+    },
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "sourceKey": "evacuation-readiness",
+      "source": "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+      "canonical": "evacuation-readiness",
+      "kind": "route"
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "sourceKey": "care-enrollments",
+      "source": "/Volumes/external/projects/AIElderCareCompanion/backend/migrations/001_governed_care.sql",
+      "canonical": "care-enrollments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "sourceKey": "care-plans",
+      "source": "/Volumes/external/projects/AIElderCareCompanion/backend/migrations/001_governed_care.sql",
+      "canonical": "care-plans",
+      "kind": "definition"
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "sourceKey": "care-incidents",
+      "source": "/Volumes/external/projects/AIElderCareCompanion/backend/migrations/001_governed_care.sql",
+      "canonical": "care-incidents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "sourceKey": "care-dispatch-requests",
+      "source": "/Volumes/external/projects/AIElderCareCompanion/backend/migrations/001_governed_care.sql",
+      "canonical": "care-dispatch-requests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/devices",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "devices",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/rooms",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "rooms",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/automations",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "automations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/scenes",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "scenes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/energy",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "energy",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/security",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "security",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/sensors",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "sensors",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/schedules",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "schedules",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/notifications",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/maintenance",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/analytics",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/profiles",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "profiles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/calendar",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "calendar",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/shopping",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "shopping",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/recipes",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "recipes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/mealplan",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "mealplan",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/chores",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "chores",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/budget",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "budget",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/inventory",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/weather",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "weather",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/pets",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "pets",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/plants",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "plants",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/guests",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "guests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/media",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "media",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/laundry",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "laundry",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/packages",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "packages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/warranty",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "warranty",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/emergency",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "emergency",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/intercom",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "intercom",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/robotstatus",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "robotstatus",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/robottasks",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "robottasks",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/voice",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "voice",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/faces",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "faces",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/emotions",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "emotions",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/gestures",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "gestures",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/objects",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "objects",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/patrol",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "patrol",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/navigation",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "navigation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/companion",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "companion",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/sleep",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "sleep",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/anomalies",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "anomalies",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/predictive",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "predictive",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "/recommendations",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "canonical": "recommendations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "Expense Optimizer",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+      "canonical": "expense-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "Occupancy Prediction",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+      "canonical": "occupancy-prediction",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "Routine Learning",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+      "canonical": "routine-learning",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "Proactive Maintenance",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+      "canonical": "proactive-maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "Guest Profiling",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+      "canonical": "guest-profiling",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "Emergency Response Advisor",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/AdvancedAITools.jsx",
+      "canonical": "emergency-response-advisor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "devices",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "devices",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "rooms",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "rooms",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "automations",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "automations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "scenes",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "scenes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "energy",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "energy",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "security",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "security",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "sensors",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "sensors",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "schedules",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "schedules",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "notifications",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "maintenance",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "maintenance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "analytics",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "profiles",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "profiles",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "calendar",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "calendar",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "shopping",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "shopping",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "recipes",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "recipes",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "mealplan",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "mealplan",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "chores",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "chores",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "budget",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "budget",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "inventory",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "inventory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "weather",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "weather",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "pets",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "pets",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "plants",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "plants",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "guests",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "guests",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "media",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "media",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "laundry",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "laundry",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "packages",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "packages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "warranty",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "warranty",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "emergency",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "emergency",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "intercom",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "intercom",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "robotstatus",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "robotstatus",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "robottasks",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "robottasks",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "voice",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "voice",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "faces",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "faces",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "emotions",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "emotions",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gestures",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "gestures",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "objects",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "objects",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "patrol",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "patrol",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "navigation",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "navigation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "companion",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "companion",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "sleep",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "sleep",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "anomalies",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "anomalies",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "predictive",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "predictive",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "recommendations",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/pages/Dashboard.jsx",
+      "canonical": "recommendations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "family-permissions",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "family-permissions",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "cf-agentic-household-orchestrator-autonomou",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "agentic-household-orchestrator-autonomou",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "cf-real-time-energy-demand-shifting-auto",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "real-time-energy-demand-shifting-auto",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "cf-proactive-maintenance-prediction-from-ap",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "proactive-maintenance-prediction-from-ap",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "cf-voice-video-multimodal-ai-understanding-",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "voice-video-multimodal-ai-understanding",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "cf-multi-home-energy-arbitrage-with-demand",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "multi-home-energy-arbitrage-with-demand",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "cf-family-activity-clustering-auto-creating",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "family-activity-clustering-auto-creating",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-expense-optimizer-for-service-cancell",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "expense-optimizer-for-service-cancell",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-occupancy-prediction-model",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "occupancy-prediction-model",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-guest-profiling-ai",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "guest-profiling-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-emergency-response-coordination-ai",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "emergency-response-coordination-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-routine-learning-new-automation-sugge",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "routine-learning-new-automation-sugge",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-device-marketplace-integration",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "device-marketplace-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-vendor-service-booking",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "vendor-service-booking",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-multi-home-management",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "multi-home-management",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-audit-log-0-references",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "audit-log-0-references",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-webhook-surface",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "webhook-surface",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "gap-no-websocket-real-time-device-updates",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "websocket-real-time-device-updates",
+      "kind": "route"
+    },
+    {
+      "project": "AIhomecompanion",
+      "sourceKey": "medication-reminder-escalation",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "canonical": "medication-reminder-escalation",
+      "kind": "route"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/patients",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-patients",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/care-plans",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "care-plans",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/visits",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-visits",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/medications",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-medications",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/symptoms",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-symptoms",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/family-members",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-family-members",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/bereavement",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-bereavement",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/spiritual-care",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-spiritual-care",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/social-work",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-social-work",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/volunteers",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-volunteers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/schedules",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-schedules",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/equipment",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-equipment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/supplies",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-supplies",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/gip-beds",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-gip-beds",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/certifications",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-certifications",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/billing",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/quality-measures",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-quality-measures",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/compliance",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/team-meetings",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-team-meetings",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/surveys",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-surveys",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/comfort-kit-refill-predictor",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/App.js",
+      "canonical": "api-comfort-kit-refill-predictor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "advance-directive-summarizer",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/AdvancedAITools.js",
+      "canonical": "advance-directive-summarizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "family-meeting-agenda-generator",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/AdvancedAITools.js",
+      "canonical": "family-meeting-agenda-generator",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/care-plan-narrative",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-care-plan-narrative",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/symptom-recommendations",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-symptom-recommendations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/comfort-measures",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-comfort-measures",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/family-communication",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-family-communication",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/compliance-documentation",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-compliance-documentation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/bereavement-resources",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-bereavement-resources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/predictive-decline",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-predictive-decline",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/symptom-recommendations",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-symptom-recommendations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/bereavement-contact",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-bereavement-contact",
+      "kind": "definition"
+    },
+    {
+      "project": "AIHospiceCareManager",
+      "sourceKey": "/api/ai/meeting-summary",
+      "source": "/Volumes/external/projects/AIHospiceCareManager/client/src/pages/FeaturePage.js",
+      "canonical": "api-ai-meeting-summary",
+      "kind": "definition"
+    },
+    {
+      "project": "ihss_scheduling",
+      "sourceKey": "ihss_scheduling",
+      "source": "/Volumes/external/projects/ihss_scheduling",
+      "canonical": "ihss-scheduling",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "salesforce_ihss_scheduling",
+      "sourceKey": "optimize-schedule",
+      "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+      "canonical": "optimize-schedule",
+      "kind": "definition"
+    },
+    {
+      "project": "salesforce_ihss_scheduling",
+      "sourceKey": "predict-demand",
+      "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+      "canonical": "predict-demand",
+      "kind": "definition"
+    },
+    {
+      "project": "salesforce_ihss_scheduling",
+      "sourceKey": "find-backup-resource",
+      "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+      "canonical": "find-backup-resource",
+      "kind": "definition"
+    },
+    {
+      "project": "salesforce_ihss_scheduling",
+      "sourceKey": "skill-gap-analyzer",
+      "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+      "canonical": "skill-gap-analyzer",
+      "kind": "definition"
+    },
+    {
+      "project": "salesforce_ihss_scheduling",
+      "sourceKey": "rate-advisor",
+      "source": "/Volumes/external/projects/salesforce_ihss_scheduling/frontend/src/pages/AIAdvisors.js",
+      "canonical": "rate-advisor",
+      "kind": "definition"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "key": "/homes/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "key": "/assessments/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIAgingInPlaceHomeModificationAssessor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIAgingInPlaceHomeModificationAssessor",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIElderCareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIElderCareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIElderCareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "key": "batch03",
+      "source": "/Volumes/external/projects/AIElderCareCompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIElderCareCompanion",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "/ai",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "/advanced-ai",
+      "source": "/Volumes/external/projects/AIhomecompanion/frontend/src/components/Sidebar.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "ai",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "advanced-ai",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIhomecompanion",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIhomecompanion",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "salesforce_ihss_scheduling",
+      "key": "login",
+      "source": "/Volumes/external/projects/salesforce_ihss_scheduling",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "salesforce_ihss_scheduling",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "project": "ihss_scheduling",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    }
+  ]
+}
