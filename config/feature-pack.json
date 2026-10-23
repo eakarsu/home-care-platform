@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-care-plans",
+      "feature": "care-plans",
+      "title": "Care plans insight",
+      "focus": "Summarize Care plans records: totals, status mix, field coverage and recent activity. Operational summary of supplied records only; do not add new clinical recommendations."
+    },
+    {
+      "id": "insight-care-incidents",
+      "feature": "care-incidents",
+      "title": "Care incidents insight",
+      "focus": "Summarize Care incidents records: totals, status mix, severity/category coverage and recent activity. Use only supplied records."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
